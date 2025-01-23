@@ -1,0 +1,16 @@
+package Calculadora;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Calculadora c1;
+Calculadora c2;
+ c1= new Calculadora();
+ c1.setOp1(3);
+ c1.setOp1(2);
+ 
+ c2= new Calculadora(10,4);
+	}
+
+}
