@@ -18,14 +18,16 @@ Matriz(int linha, int coluna){
  public Matriz() {
 	// TODO Auto-generated constructor stub
 }
-public void preencherMatriz() {
-	 Scanner scanner = new Scanner(System.in);
-	 for(int i= 0; i<linha; i++) {
-		 for(int j=0; j< coluna; j++) {
-			 elementos [i][j] =scanner.nextInt();
-		 }
-	 }
- }
+ public void preencherMatriz() {
+	    Scanner scanner = new Scanner(System.in);
+	    for (int i = 0; i < linha; i++) {
+	        for (int j = 0; j < coluna; j++) {
+	            elementos[i][j] = scanner.nextInt();
+	        }
+	    }
+	}
+
+
  
 public int getLinha() {
 	return linha;
