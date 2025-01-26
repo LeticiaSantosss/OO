@@ -9,7 +9,7 @@ void calculaProgressao() {
 		if (i==0)
 			termo[i] =  termo[i] = new Termos(getA0(), i+1);
 		else
-		 termo[i] = new Termos(getA0() + i * getR(), i + 1);
+		 termo[i] = new Termos(getA0()+getR() * i  , i + 1);
 		
 	}
 }
